@@ -1,0 +1,117 @@
+$date
+	Tue Aug 19 02:46:05 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_fsm4 $end
+$var wire 1 ! z $end
+$var reg 1 " clk $end
+$var reg 1 # in $end
+$var reg 1 $ reset $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 1 # in $end
+$var wire 1 $ reset $end
+$var parameter 2 % s0 $end
+$var parameter 2 & s1 $end
+$var parameter 2 ' s2 $end
+$var parameter 2 ( s3 $end
+$var reg 2 ) state [1:0] $end
+$var reg 1 ! z $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 (
+b10 '
+b1 &
+b0 %
+$end
+#0
+$dumpvars
+b0 )
+1$
+0#
+0"
+0!
+$end
+#5000
+1"
+#10000
+0"
+0$
+#15000
+1"
+#20000
+0"
+1#
+#25000
+b1 )
+1"
+#30000
+0"
+#35000
+b10 )
+1"
+#40000
+0"
+0#
+#45000
+b11 )
+1"
+#50000
+0"
+1#
+#55000
+1!
+b1 )
+1"
+#60000
+0"
+#65000
+0!
+b10 )
+1"
+#70000
+0"
+0#
+#75000
+b11 )
+1"
+#80000
+0"
+1#
+#85000
+1!
+b1 )
+1"
+#90000
+0"
+0#
+#95000
+0!
+b0 )
+1"
+#100000
+0"
+1#
+#105000
+b1 )
+1"
+#110000
+0"
+0#
+#115000
+b0 )
+1"
+#120000
+0"
+#125000
+1"
+#130000
+0"
