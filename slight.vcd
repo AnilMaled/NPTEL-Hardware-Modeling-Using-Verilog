@@ -1,0 +1,111 @@
+$date
+	Sun Jun 08 18:31:21 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module sltb $end
+$var wire 3 ! light [0:2] $end
+$var reg 1 " clk $end
+$scope module dut $end
+$var wire 1 " clk $end
+$var parameter 3 # green $end
+$var parameter 3 $ red $end
+$var parameter 32 % s0 $end
+$var parameter 32 & s1 $end
+$var parameter 32 ' s2 $end
+$var parameter 3 ( yellow $end
+$var reg 3 ) light [0:2] $end
+$var reg 2 * state [0:1] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1 (
+b10 '
+b1 &
+b0 %
+b100 $
+b10 #
+$end
+#0
+$dumpvars
+bx *
+bx )
+0"
+bx !
+$end
+#5000
+b0 *
+b100 !
+b100 )
+1"
+#10000
+0"
+#15000
+b1 *
+b10 !
+b10 )
+1"
+#20000
+0"
+#25000
+b10 *
+b1 !
+b1 )
+1"
+#30000
+0"
+#35000
+b0 *
+b100 !
+b100 )
+1"
+#40000
+0"
+#45000
+b1 *
+b10 !
+b10 )
+1"
+#50000
+0"
+#55000
+b10 *
+b1 !
+b1 )
+1"
+#60000
+0"
+#65000
+b0 *
+b100 !
+b100 )
+1"
+#70000
+0"
+#75000
+b1 *
+b10 !
+b10 )
+1"
+#80000
+0"
+#85000
+b10 *
+b1 !
+b1 )
+1"
+#90000
+0"
+#95000
+b0 *
+b100 !
+b100 )
+1"
+#100000
+0"

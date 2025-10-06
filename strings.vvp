@@ -1,0 +1,53 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 12;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_000002e7c6cd63f0 .scope module, "String_tb" "String_tb" 2 4;
+ .timescale -9 -12;
+S_000002e7c6cd6580 .scope module, "uut" "String" 2 7, 3 1 0, S_000002e7c6cd63f0;
+ .timescale -9 -12;
+v000002e7c6cd6710_0 .var "str", 160 1;
+v000002e7c6ca2910_0 .var "str1", 160 1;
+    .scope S_000002e7c6cd6580;
+T_0 ;
+    %pushi/vec4 0, 0, 32; draw_string_vec4
+    %pushi/vec4 0, 0, 32; draw_string_vec4
+    %concat/vec4; draw_string_vec4
+    %pushi/vec4 6889569, 0, 32; draw_string_vec4
+    %concat/vec4; draw_string_vec4
+    %pushi/vec4 1830816288, 0, 32; draw_string_vec4
+    %concat/vec4; draw_string_vec4
+    %pushi/vec4 1634625900, 0, 32; draw_string_vec4
+    %concat/vec4; draw_string_vec4
+    %store/vec4 v000002e7c6cd6710_0, 0, 160;
+    %pushi/vec4 0, 0, 32; draw_string_vec4
+    %pushi/vec4 0, 0, 32; draw_string_vec4
+    %concat/vec4; draw_string_vec4
+    %pushi/vec4 0, 0, 32; draw_string_vec4
+    %concat/vec4; draw_string_vec4
+    %pushi/vec4 1718969195, 0, 32; draw_string_vec4
+    %concat/vec4; draw_string_vec4
+    %pushi/vec4 544829301, 0, 32; draw_string_vec4
+    %concat/vec4; draw_string_vec4
+    %store/vec4 v000002e7c6ca2910_0, 0, 160;
+    %vpi_call 3 9 "$display", "the string is:%s", v000002e7c6cd6710_0 {0 0 0};
+    %vpi_call 3 10 "$display", "the string is:%s", &PV<v000002e7c6ca2910_0, 0, 20> {0 0 0};
+    %end;
+    .thread T_0;
+    .scope S_000002e7c6cd63f0;
+T_1 ;
+    %delay 10000, 0;
+    %vpi_call 2 12 "$finish" {0 0 0};
+    %end;
+    .thread T_1;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    ".\strings_tb.v";
+    "./strings.v";
